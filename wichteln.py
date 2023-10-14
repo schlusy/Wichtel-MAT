@@ -26,7 +26,7 @@ def get_random_wichtel_assignment(participants, couples=[]):
         if is_valid:
             return wichtel_assignment
 
-# import participants from input file "participants.txt" 
+# import participants from input file "participants.txt"
 # one name per row
 with open("input/participants.txt", "r") as file:
     participants = [line.strip() for line in file]
